@@ -1,0 +1,29 @@
+from telegram.constants import ParseMode
+
+async def requirements_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    requirement_text = """
+📋 *Bot Use Karne Ke Liye Requirements:*
+
+1️⃣ *Support Group Join Karna Zaroori Hai*  
+Aapko pehle hamare support group ya channel join karna hoga warna bot work nahi karega.
+
+2️⃣ *VIP Access (Optional)*  
+Free users ko limited daily requests milte hain (1 per day). Agar aapko unlimited ya zyada chahiye, toh aap VIP le sakte hain. VIP lene ke liye admin se contact karein.
+
+3️⃣ *Bot Ko Group Mein Proper Permission Do*  
+Bot ko admin rights chahiye group mein kaam karne ke liye. Make sure bot is admin.
+
+4️⃣ *Daily Limit Reset*  
+Free requests har din 1:30 AM (Sri Lanka Time) pe reset hoti hai.
+
+5️⃣ *Rules Follow Karna Hoga*  
+❌ Abuse, spam ya misuse mat karein.  
+✅ Respect sabhi users & admins.
+
+📌 *Support / Access / VIP ke liye contact karein:*  
+👉 @dg_gaming_1m ✔️
+
+🔗 *Join Our Support Group:*  
+https://t.me/LsFreeLikes
+"""
+    await update.message.reply_text(requirement_text, parse_mode=ParseMode.MARKDOWN)
