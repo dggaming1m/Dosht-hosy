@@ -1,30 +1,3 @@
-# Requirements Text for Rendering in Bot
-
-requirements_text = """
-📋 **Bot Use Karne Ke Liye Requirements:**
-
-1️⃣ **Support Group Join Karna Zaroori Hai**  
-Aapko pehle hamare support group ya channel join karna hoga warna bot kaam nahi karega.
-
-2️⃣ **VIP Access (Optional)**  
-Free users ko sirf 1 request per day milti hai. Agar aapko zyada requests chahiye, toh VIP access le sakte hain. VIP lene ke liye admin se contact karein.
-
-3️⃣ **Bot Ko Group Mein Admin Rights Dena Hoga**  
-Bot ko kaam karne ke liye group mein admin banana zaroori hai.
-
-4️⃣ **Daily Limit Reset Timing**  
-Har din 1:30 AM (Sri Lanka Time) pe free requests reset hoti hain.
-
-5️⃣ **Rules Follow Karna Zaroori Hai**  
-❌ Abuse, spam ya misuse mat karein  
-✅ Sabhi users & admins ko respect dein
-
-📌 **Support / Access / VIP ke liye contact karein:**  
-👉 @dg_gaming_1m ✔️
-
-🔗 **Join Support Group:**  
-https://t.me/LsFreeLikes
-"""
-
-# Use this text in your bot reply like so
-await update.message.reply_text(requirements_text)
+python-telegram-bot==20.7
+Flask==2.3.3
+requests==2.31.0
